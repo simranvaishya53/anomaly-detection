@@ -21,11 +21,11 @@ The system fetches vibrational sensor data stored in MongoDB and processes it us
 ## Getting Started
 ### Prerequisites
 Ensure you have the following installed:
-Python 3.x
-MongoDB
-Flask
+1) Python 3.x
+2) MongoDB
+3) Flask
+4) d3.js
 Required Python libraries: pandas, numpy, scikit-learn, pymongo
-d3.js
 
 ### Visualization
 The D3.js visualization provides an interactive view of the vibrational data, highlighting anomalies against the normal operational patterns. 
