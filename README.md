@@ -25,8 +25,12 @@ Ensure you have the following installed:
 2) MongoDB
 3) Flask
 4) d3.js
-Required Python libraries: pandas, numpy, scikit-learn, pymongo
+5) Required Python libraries: pandas, numpy, scikit-learn, pymongo
 
 ### Visualization
 The D3.js visualization provides an interactive view of the vibrational data, highlighting anomalies against the normal operational patterns. 
 Users can explore the data in the context of the detected thresholds, providing intuitive insights into the machine's condition.
+
+## Future Scope
+To enhance the current anomaly detection system for vibrational data, we aim to evolve it into a dynamic alarm mechanism that monitors live data streams. This upgraded system would not only detect anomalies in real-time but also assess the persistence and frequency of abnormal signals. By setting a condition where a sequence of consecutive readings surpasses the defined thresholds, the system would trigger an alert, indicating a probable sensor malfunction or a looming operational failure.
+This proactive alerting feature is designed to provide an early warning, enabling preemptive maintenance actions to avert potential disasters and mitigate risks. By doing so, the system ensures continuous operational safety and reliability, particularly vital in critical infrastructures or high-stakes industrial environments where equipment failure can have severe consequences.
